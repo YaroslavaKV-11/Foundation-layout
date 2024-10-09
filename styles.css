@@ -970,11 +970,13 @@ html {
 .order__illustration {
   margin-left: 45px;
   max-width: 200px;
+  height: 220px;
 }
 @media screen and (min-width: 1400px) {
   .order__illustration {
     margin: 0;
     max-width: 269px;
+    height: auto;
     margin-right: 121px;
     align-self: center;
   }
@@ -1007,7 +1009,7 @@ html {
   }
 }
 .order__email {
-  margin-top: 40px;
+  margin-top: 79px;
   background: #fff;
   border: 1px solid rgba(43, 41, 45, 0.2);
   border-radius: 2px;
