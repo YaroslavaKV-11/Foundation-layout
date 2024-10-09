@@ -21,7 +21,15 @@
             display: block;
         }
     }
+    .logo__image {
+        width: 48px;
+        height:  48px;
 
+        @include for-large-up {
+            width: 60px;
+            height:  60px;
+        }
+    }
     .logo__description {
         display: none;
 
@@ -43,12 +51,12 @@
         margin-left: auto;
         background: transparent;
 
-        &-icon {
-            width: 18px;
-            height: 13px;
-            background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
-            display: inline-block;
-        }
+        // &-icon {
+        //     width: 18px;
+        //     height: 13px;
+        //     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
+        //     display: inline-block;
+        // }
 
         @include for-large-up {
             display: none;
