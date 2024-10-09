@@ -265,7 +265,7 @@ html {
     display: flex;
     flex-direction: column;
     margin-top: 84px;
-    padding-bottom: 77px;
+    margin-bottom: 77px;
   }
 }
 
