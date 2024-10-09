@@ -15,10 +15,12 @@
     &__illustration {
         margin-left: 45px;
         max-width: 200px;
+        height: 220px;
 
         @include for-large-up {
             margin: 0;
             max-width: 269px;
+            height: auto;
             margin-right: 121px;
             align-self: center;
         }
@@ -31,7 +33,8 @@
         font-size: 40px;
         line-height: 40px;
         letter-spacing: -0.357143px;
-        margin-top: 40px;
+        margin-top: 38px;
+        color: $dark-gray;
 
         @include for-large-up {
             text-align: left;
@@ -44,6 +47,7 @@
         font-size: 22px;
         line-height: 32px;
         margin-top: 18px;
+        color: $dark-gray;
     }
 
     &__form {
@@ -54,7 +58,7 @@
     }
 
     &__email {
-        margin-top: 40px;
+        margin-top: 79px;
         background: $white-color;
         border: 1px solid rgba(43, 41, 45, 0.2);
         border-radius: 2px;
