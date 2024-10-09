@@ -191,6 +191,7 @@
   line-height: 50px;
   letter-spacing: -0.3125px;
   margin: 0;
+  color: #2B292D;
 }
 @media screen and (min-width: 1400px) {
   .headline__title {
@@ -199,11 +200,10 @@
     font-size: 80px;
     line-height: 78px;
     letter-spacing: -0.5px;
-    color: #2B292D;
   }
 }
 .headline__description {
-  margin-top: 24px;
+  margin-top: 25px;
   margin-bottom: 0;
   font-size: 24px;
   line-height: 34px;
