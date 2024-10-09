@@ -1,0 +1,37 @@
+@import 'breakpoints.scss';
+@import 'variables.scss';
+@import 'common.scss';
+@import 'header.scss';
+@import 'headline.scss';
+@import 'about.scss';
+@import 'customers.scss';
+@import 'features.scss';
+@import 'tips.scss';
+@import 'team-inbox.scss';
+@import 'comunication.scss';
+@import 'audience.scss';
+@import 'order.scss';
+@import 'footer.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.page {
+    width: 100%;
+    overflow-x: hidden;
+
+    @include for-large-up {
+        max-width: 1400px;
+        margin: auto;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
