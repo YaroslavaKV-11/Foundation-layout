@@ -988,7 +988,8 @@ html {
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.357143px;
-  margin-top: 40px;
+  margin-top: 44px;
+  color: #2B292D;
 }
 @media screen and (min-width: 1400px) {
   .order__title {
@@ -1001,6 +1002,7 @@ html {
   font-size: 22px;
   line-height: 32px;
   margin-top: 18px;
+  color: #2B292D;
 }
 @media screen and (min-width: 1400px) {
   .order__form {
