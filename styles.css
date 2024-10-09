@@ -185,12 +185,11 @@ html {
 }
 .headline__banner {
   width: 100%;
-  margin-bottom: 36px;
 }
 @media screen and (min-width: 1400px) {
   .headline__banner {
     position: relative;
-    right: -105px;
+    right: -10px;
     top: 0;
     width: 796px;
     height: 448px;
@@ -261,7 +260,7 @@ html {
 @media screen and (min-width: 1400px) {
   .headline {
     position: relative;
-    width: 1140px;
+    width: 1245px;
     margin: auto;
     display: flex;
     flex-direction: column;
